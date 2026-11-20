@@ -2,7 +2,9 @@ package com.Helloworld.CiCdPractice;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
-
+//git ls-files --stage mvnw
+//docker build --target build -t cicd-build-check .
+//docker run -it --name app-build-container --entrypoint bash app:latest
 @RestController
 public class HelloController {
     @GetMapping("/")
